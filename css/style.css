@@ -1,0 +1,146 @@
+
+
+
+h2 {
+    color: white;
+  font-size: 3rem;
+   font-family: 'Cinzel Decorative', cursive;
+}
+
+nav {
+color:darkred;
+}
+
+
+.menu-category > li{
+	font-weight: bold;
+	line-height: 1.6;
+  font-size: 18pt;}
+
+.menu-main  li {
+	padding:4px ;
+	background-color: lightcoral ;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.6;
+  font-size: 15pt;
+}
+.menu-main  li.active{
+	font-size: 17pt;
+	color:   lightblue;
+	text-decoration: underline;
+	
+}
+.menu-category > li.active{
+	font-size: 18pt;
+	color:  darkgray;
+	font-weight: bold;
+}
+
+.menu-main h2 {
+	font-size:26pt;
+	text-align: center;
+}
+.menu-category h2 {
+	font-size:26pt;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+ .menu-main  li:hover{
+ 	box-shadow: 4px 6px 10px 4px #AAAAAA;
+ 	cursor: pointer;
+ }
+.menu-category li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	margin-left: 15px;
+	color: silver ;
+}
+.menu-category li:first-child{
+	margin-left: 20px;
+}
+header {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+
+
+main, header,  article, aside, footer, section {
+  background-color: rgba(255,60,60,0.7);
+  padding: 1%;
+}
+
+
+header img {
+  display: block;
+  height: 60px;
+  padding-top: 0.15px;
+}
+
+
+nav a, nav span {
+  display: inline-block;
+  font-size: 1.9rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+
+}
+
+main {
+  display: flex;
+}
+
+article, section {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 200%;
+}
+
+footer {
+  margin-top: 10px;
+}
+p{
+	color: white;
+}
+ul {color: white;}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
